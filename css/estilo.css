@@ -1,0 +1,62 @@
+:root {
+    --warm-black: #1e1f22;
+    --botones-spotify: #1ed760;
+    --lila-head: #a10ade;
+    --lila-head-2: #c701b6;
+    --azul-cabecera-spoty: #4721b5;
+    --background-body: #0c0520;
+    --verde-platzi: #0aeb8b;
+    --background-platzi: #1e2229;
+    --background-2-platzi: #2d323a;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: var(--botones-spotify) !important;
+    text-align: center;
+}
+p {
+    color: var(--lila-head-2);
+}
+button {
+    background-color: var(--verde-platzi) !important;
+    color: var(--lila-head-2) !important;
+}
+
+#section-encabezado-landing    {
+    width: 100%;
+    min-width: 400px;
+    height: 410px;
+    text-align: center;
+    background-color: var(--background-platzi) !important;
+}
+
+#section-caracteristicas {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: var(--background-platzi) !important;
+    padding: 10px;
+}
+
+.card-caracteristicas {
+    background-color: var(--azul-cabecera-spoty) !important;
+}
+.card-title {
+    color: var(--lila-head-2)!important;
+}
+
+#section-preguntas-frecuentes {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    text-align: left;
+    border-radius: 10px !important;
+    background-color: var(--background-platzi) !important;
+    padding: 10px;
+}
