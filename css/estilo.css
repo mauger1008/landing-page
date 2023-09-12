@@ -1,12 +1,14 @@
 :root {
     --warm-black: #1e1f22;
     --botones-spotify: #1ed760;
-    --lila-head: #a10ade;
+    --botones-lila: #7962ed;
+    --lila-head: hsl(283, 91%, 45%);
     --lila-head-2: #c701b6;
+    --lila-parrafo: #7962ed;
     --azul-cabecera-spoty: #4721b5;
     --background-body: #0c0520;
     --verde-platzi: #0aeb8b;
-    --background-platzi: #1e2229;
+    --background-platzi: #ffffff;
     --background-2-platzi: #2d323a;
 }
 
@@ -16,15 +18,15 @@
     margin: 0;
 }
 h1 {
-    color: var(--botones-spotify) !important;
+    color: var(--azul-cabecera-spoty) !important;
     text-align: center;
 }
 p {
-    color: var(--lila-head-2);
+    color: var(--lila-parrafo);
 }
 button {
-    background-color: var(--verde-platzi) !important;
-    color: var(--lila-head-2) !important;
+    background-color: var(--botones-lila) !important;
+    color: var(--background-platzi) !important;
 }
 
 #section-encabezado-landing    {
@@ -40,15 +42,15 @@ button {
     min-width: 400px;
     height: auto;
     text-align: center;
-    background-color: var(--background-platzi) !important;
+    background-color: var(--background-body) !important;
     padding: 10px;
 }
 
 .card-caracteristicas {
-    background-color: var(--azul-cabecera-spoty) !important;
+    background-color: var(--warm-black) !important;
 }
 .card-title {
-    color: var(--lila-head-2)!important;
+    color: var(--background-platzi)!important;
 }
 
 #section-preguntas-frecuentes {
