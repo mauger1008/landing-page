@@ -10,6 +10,7 @@
     --verde-platzi: #0aeb8b;
     --background-platzi: #ffffff;
     --background-2-platzi: #2d323a;
+    --formulario-rocketfy: #0dacfb;
 }
 
 * {
@@ -18,14 +19,15 @@
     margin: 0;
 }
 h1 {
-    color: var(--azul-cabecera-spoty) !important;
+    background: linear-gradient(#4721b5,#c701b6 );
+    color: var(--background-platzi) !important;
     text-align: center;
 }
 p {
-    color: var(--lila-parrafo);
+    color: var(--background-platzi);
 }
 button {
-    background-color: var(--botones-lila) !important;
+    background-color: var(--botones-spotify) !important;
     color: var(--background-platzi) !important;
 }
 
@@ -34,7 +36,7 @@ button {
     min-width: 400px;
     height: 410px;
     text-align: center;
-    background-color: var(--background-platzi) !important;
+    background-color: var(--background-body) !important;
 }
 
 #section-caracteristicas {
@@ -42,15 +44,15 @@ button {
     min-width: 400px;
     height: auto;
     text-align: center;
-    background-color: var(--background-body) !important;
+    background-color: rgb(220, 0, 0) !important;
     padding: 10px;
 }
 
 .card-caracteristicas {
-    background-color: var(--warm-black) !important;
+    background-color: var(--verde-platzi) !important;
 }
 .card-title {
-    color: var(--background-platzi)!important;
+    color: var(--azul-cabecera-spoty)!important;
 }
 
 #section-preguntas-frecuentes {
@@ -58,7 +60,11 @@ button {
     min-width: 400px;
     height: auto;
     text-align: left;
-    border-radius: 10px !important;
-    background-color: var(--background-platzi) !important;
+    background-color: var(--background-body) !important;
     padding: 10px;
+}
+
+#realizar-pedido {
+    min-width: 400px;
+    background-color: var(--background-body);
 }
