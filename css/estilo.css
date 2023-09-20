@@ -27,18 +27,26 @@ p {
     color: var(--background-platzi);
 }
 button {
-    background-color: var(--botones-spotify) !important;
-    color: var(--background-platzi) !important;
+    /* background-color: var(--botones-spotify) !important; */
+    color: #ffffff  ;
 }
 
 #section-encabezado-landing    {
     width: 100%;
     min-width: 400px;
-    height: 410px;
+    height: 430px;
     text-align: center;
     background-color: var(--background-body) !important;
 }
-
+.btn-conoce-mas {
+    border-radius: 50px !important;
+    color: red !important;
+}
+.btn-conoce-mas:hover {
+    border-radius: 50px !important;
+    color: white !important;
+    box-shadow: red !important;
+}
 #section-caracteristicas {
     width: 100%;
     min-width: 400px;
@@ -62,6 +70,9 @@ button {
     text-align: left;
     background-color: var(--background-body) !important;
     padding: 10px;
+}
+.accordion-button {
+    background-color: red !important;
 }
 
 #hablar-asesor {
