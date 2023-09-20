@@ -19,7 +19,7 @@
     margin: 0;
 }
 h1 {
-    background: linear-gradient(#4721b5,#c701b6 );
+    background: linear-gradient(#fd7506,#c701b6 );
     color: var(--background-platzi) !important;
     text-align: center;
 }
@@ -49,10 +49,10 @@ button {
 }
 
 .card-caracteristicas {
-    background-color: var(--verde-platzi) !important;
+    background-color: var(--background-body) !important;
 }
 .card-title {
-    color: var(--azul-cabecera-spoty)!important;
+    color: var(--background-platzi)!important;
 }
 
 #section-preguntas-frecuentes {
@@ -62,6 +62,10 @@ button {
     text-align: left;
     background-color: var(--background-body) !important;
     padding: 10px;
+}
+
+#hablar-asesor {
+    background-color: var(--background-body);
 }
 
 #realizar-pedido {
