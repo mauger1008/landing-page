@@ -83,3 +83,13 @@ button {
     min-width: 400px;
     background-color: var(--background-body);
 }
+
+/* 
+seccion testimonios */
+.card-test {
+    background-color: var(--azul-cabecera-spoty) !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
