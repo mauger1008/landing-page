@@ -11,6 +11,10 @@
     --background-platzi: #ffffff;
     --background-2-platzi: #2d323a;
     --formulario-rocketfy: #0dacfb;
+    /*colores pagina web landing*/
+    --lila-fuerte: #190834;
+    --lila-suave: #930ad9;
+    --lila-medio: #8c52ff;
 }
 
 * {
@@ -19,7 +23,7 @@
     margin: 0;
 }
 h1 {
-    background: linear-gradient(#fd7506,#c701b6 );
+    /* background: linear-gradient(#fd7506,#c701b6 ); */
     color: var(--background-platzi) !important;
     text-align: center;
 }
@@ -36,7 +40,7 @@ button {
     min-width: 400px;
     height: 430px;
     text-align: center;
-    background-color: var(--background-body) !important;
+    background-color: var(--lila-fuerte) !important;
 }
 .btn-conoce-mas {
     border-radius: 50px !important;
@@ -52,12 +56,12 @@ button {
     min-width: 400px;
     height: auto;
     text-align: center;
-    background-color: rgb(220, 0, 0) !important;
+    background-color: var(--lila-fuerte) !important;
     padding: 10px;
 }
 
 .card-caracteristicas {
-    background-color: var(--background-body) !important;
+    background-color: var(--lila-suave) !important;
 }
 .card-title {
     color: var(--background-platzi)!important;
@@ -68,26 +72,29 @@ button {
     min-width: 400px;
     height: auto;
     text-align: left;
-    background-color: var(--background-body) !important;
-    padding: 10px;
+    background-color: var(--lila-fuerte) !important;
 }
 .accordion-button {
-    background-color: red !important;
+    background-color: var(--lila-suave) !important;
+    color: white;
 }
 
 #hablar-asesor {
+    min-width: 400px;
     background-color: var(--background-body);
+    height: auto;
+    padding-bottom: 20px;
 }
 
 #realizar-pedido {
     min-width: 400px;
-    background-color: var(--background-body);
+    background-color: var(--lila-suave);
 }
 
 /* 
 seccion testimonios */
 .card-test {
-    background-color: var(--azul-cabecera-spoty) !important;
+    background-color: var(--lila-fuerte) !important;
 }
 .card-img-top {
     width: 100%;
