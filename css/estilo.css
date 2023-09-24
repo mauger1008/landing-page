@@ -38,9 +38,16 @@ button {
 #section-encabezado-landing    {
     width: 100%;
     min-width: 400px;
-    height: 430px;
+    height: 750px;
     text-align: center;
     background-color: var(--lila-fuerte) !important;
+}
+.titulo_guia {
+    line-height: 55px;
+}
+.span-titulo {
+    background: linear-gradient(to right,#930ad9, #8c52ff);
+    padding: 3px;
 }
 .btn-conoce-mas {
     border-radius: 50px !important;
