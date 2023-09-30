@@ -39,7 +39,7 @@ button {
 
 #section-encabezado-landing    {
     width: 100%;
-    min-width: 450px;
+    min-width: 400px;
     height: 750px;
     text-align: center;
     background-color: var(--lila-fuerte) !important;
@@ -62,7 +62,7 @@ button {
 }
 #section-caracteristicas {
     width: 100%;
-    min-width: 450px;
+    min-width: 400px;
     height: auto;
     text-align: center;
     background-color: var(--lila-fuerte) !important;
@@ -78,7 +78,7 @@ button {
 
 #section-preguntas-frecuentes {
     width: 100%;
-    min-width: 450px;
+    min-width: 400px;
     height: auto;
     text-align: left;
     background-color: var(--lila-fuerte) !important;
@@ -93,14 +93,14 @@ button {
 }
 
 #hablar-asesor {
-    min-width: 450px;
+    min-width: 400px;
     background-color: var(--lila-suave);
     height: auto;
     padding-bottom: 20px;
 }
 
 #realizar-pedido {
-    min-width: 450px;
+    min-width: 400px;
     padding-bottom: 20px;
     background-color: var(--lila-suave);
 }
