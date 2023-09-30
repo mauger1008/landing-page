@@ -35,6 +35,8 @@ button {
     color: #ffffff  ;
 }
 
+
+
 #section-encabezado-landing    {
     width: 100%;
     min-width: 400px;
@@ -84,6 +86,10 @@ button {
 .accordion-button {
     background-color: var(--lila-suave) !important;
     color: white;
+}
+
+#seccion-video {
+    padding: 0 !important;
 }
 
 #hablar-asesor {
