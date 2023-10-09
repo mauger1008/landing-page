@@ -118,6 +118,6 @@ seccion testimonios */
 footer {
     background-color: var(--lila-fuerte) !important;
     color: white;
-    min-width: 450px;
+    min-width: 400px;
     height: auto;
 }
