@@ -2,8 +2,8 @@
     --warm-black: #1e1f22;
     --botones-spotify: #1ed760;
     --botones-lila: #7962ed;
-    --lila-head: hsl(283, 91%, 45%);
-    --lila-head-2: #c701b6;
+    --lila-head: hsl(282, 29%, 9%);
+    --lila-head-2: #080108;
     --lila-parrafo: #7962ed;
     --azul-cabecera-spoty: #4721b5;
     --background-body: #0c0520;
@@ -12,23 +12,29 @@
     --background-2-platzi: #2d323a;
     --formulario-rocketfy: #0dacfb;
     /*colores pagina web landing*/
-    --lila-fuerte: #190834;
-    --lila-suave: #930ad9;
+    --lila-fuerte: #ffffff;
+    --lila-suave: #0dacfb;
     --lila-medio: #8c52ff;
+    --color-fuente: rgb(0, 0, 0);
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-weight: 600;
+
 }
 h1 {
     /* background: linear-gradient(#fd7506,#c701b6 ); */
-    color: var(--background-platzi) !important;
+    color: var(--color-fuente) !important;
     text-align: center;
+    padding-bottom: 10px;
+    
+
 }
 p {
-    color: var(--background-platzi);
+    color: var(--color-fuente);
 }
 button {
     /* background-color: var(--botones-spotify) !important; */
@@ -42,7 +48,7 @@ button {
     min-width: 400px;
     height: 750px;
     text-align: center;
-    background-color: var(--lila-fuerte) !important;
+    background-color: var(--formulario-rocketfy) !important;
 }
 .titulo_guia {
     line-height: 55px;
@@ -116,8 +122,8 @@ seccion testimonios */
 }
 
 footer {
-    background-color: var(--lila-fuerte) !important;
-    color: white;
+    background-color: var(--background-body) !important;
+    color: rgb(250, 246, 246);
     min-width: 400px;
     height: auto;
 }
