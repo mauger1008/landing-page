@@ -1,0 +1,123 @@
+:root {
+    --warm-black: #1e1f22;
+    --botones-spotify: #1ed760;
+    --botones-lila: #7962ed;
+    --lila-head: hsl(283, 91%, 45%);
+    --lila-head-2: #c701b6;
+    --lila-parrafo: #7962ed;
+    --azul-cabecera-spoty: #4721b5;
+    --background-body: #0c0520;
+    --verde-platzi: #0aeb8b;
+    --background-platzi: #ffffff;
+    --background-2-platzi: #2d323a;
+    --formulario-rocketfy: #0dacfb;
+    /*colores pagina web landing*/
+    --lila-fuerte: #190834;
+    --lila-suave: #930ad9;
+    --lila-medio: #8c52ff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    /* background: linear-gradient(#fd7506,#c701b6 ); */
+    color: var(--background-platzi) !important;
+    text-align: center;
+}
+p {
+    color: var(--background-platzi);
+}
+button {
+    /* background-color: var(--botones-spotify) !important; */
+    color: #ffffff  ;
+}
+
+
+
+#section-encabezado-landing    {
+    width: 100%;
+    min-width: 400px;
+    height: 750px;
+    text-align: center;
+    background-color: var(--lila-fuerte) !important;
+}
+.titulo_guia {
+    line-height: 55px;
+}
+.span-titulo {
+    background: linear-gradient(to right,#930ad9, #8c52ff);
+    padding: 3px;
+}
+.btn-conoce-mas {
+    border-radius: 50px !important;
+    color: red !important;
+}
+.btn-conoce-mas:hover {
+    border-radius: 50px !important;
+    color: white !important;
+    box-shadow: red !important;
+}
+#section-caracteristicas {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: var(--lila-fuerte) !important;
+    padding: 10px;
+}
+
+.card-caracteristicas {
+    background-color: var(--lila-suave) !important;
+}
+.card-title {
+    color: var(--background-platzi)!important;
+}
+
+#section-preguntas-frecuentes {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    text-align: left;
+    background-color: var(--lila-fuerte) !important;
+}
+.accordion-button {
+    background-color: var(--lila-suave) !important;
+    color: white;
+}
+
+#seccion-video {
+    padding: 0 !important;
+}
+
+#hablar-asesor {
+    min-width: 400px;
+    background-color: var(--lila-suave);
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#realizar-pedido {
+    min-width: 400px;
+    padding-bottom: 20px;
+    background-color: var(--lila-suave);
+}
+
+/* 
+seccion testimonios */
+.card-test {
+    background-color: var(--lila-fuerte) !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: var(--lila-fuerte) !important;
+    color: white;
+    min-width: 400px;
+    height: auto;
+}
