@@ -15,7 +15,7 @@
     --lila-fuerte: #ffffff;
     --lila-suave: #0dacfb;
     --lila-medio: #8c52ff;
-    --color-fuente: rgb(0, 0, 0);
+    --color-fuente: rgb(255, 252, 252);
 }
 
 * {
@@ -48,7 +48,7 @@ button {
     min-width: 400px;
     height: 750px;
     text-align: center;
-    background-color: var(--formulario-rocketfy) !important;
+    background-color: #000000 !important;
 }
 .titulo_guia {
     line-height: 55px;
